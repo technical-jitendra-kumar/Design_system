@@ -12,47 +12,7 @@ All components work on different screen sizes, support light/dark mode, and are 
 
 ## 📂 Folder Structure
 
-├── DESIGN-System/
-│   ├── .storybook/
-│   │   └── main.ts           # Storybook configuration
-│   ├── node_modules/         # Dependencies
-│   ├── public/               # Static assets
-│   ├── src/
-│   │   ├── assets/           # Images, icons, etc.
-│   │   ├── components/
-│   │   │   ├── TextInput/    # Data Entry component
-│   │   │   │   ├── index.ts
-│   │   │   │   ├── TextInput.stories.tsx
-│   │   │   │   ├── TextInput.tsx
-│   │   │   │   └── TextInput.types.ts
-│   │   │   └── Toast/        # Feedback component
-│   │   │       ├── index.ts
-│   │   │       ├── Toast.stories.tsx
-│   │   │       ├── Toast.tsx
-│   │   │       └── Toast.types.ts
-│   │   ├── Typography/       # Foundational element
-│   │   │   ├── index.ts
-│   │   │   ├── Typography.stories.tsx
-│   │   │   ├── Typography.tsx
-│   │   │   └── Typography.types.ts
-│   │   ├── styles/
-│   │   │   ├── tailwind.css  # TailwindCSS setup
-│   │   │   └── theme.ts      # Theming tokens (light/dark mode, brand tokens)
-│   │   ├── utils/
-│   │   │   ├── App.css       # Global styles
-│   │   │   ├── App.tsx       # App entry point
-│   │   │   ├── main.tsx      # Main React entry
-│   │   │   └── vite-env.d.ts # Vite TypeScript env
-│   ├── .gitignore            # Git ignore rules
-│   ├── eslint.config.js      # ESLint configuration
-│   ├── index.html            # HTML entry point
-│   ├── package.json          # Dependencies and scripts
-│   ├── package-lock.json     # Dependency lock file
-│   ├── README.md             # Project documentation
-│   ├── tsconfig.app.json     # TypeScript app config
-│   ├── tsconfig.json        # TypeScript config
-│   ├── tsconfig.node.json    # TypeScript node config
-│   ├── vite.config.ts        # Vite configuration
+![Folder Structure](./src//assets//Screenshot%202025-04-16%20165135.png)
 
 ## 🛠️ How to Run
 
@@ -97,7 +57,7 @@ Storybook has details for each component:
 ## 📦 Sharing
 
 - **GitHub**: https://github.com/technical-jitendra-kumar/Design_system
-- **Storybook Link**: [Add after deploying on Chromatic/Vercel]
+- **Storybook Link**: https://67ff8eac92038e337c5b1ee8-zvbydzlwlt.chromatic.com/
 - **Screenshots**:
 
 ![Design Demo page](./src/assets/demopage.png)
