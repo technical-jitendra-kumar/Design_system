@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-  "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "chromatic --project-token=chpt_b50a367a065609e"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
@@ -31,6 +32,7 @@
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
+    "chromatic": "^11.28.0",
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
@@ -39,5 +41,4 @@
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.0"
   }
-  
 }
