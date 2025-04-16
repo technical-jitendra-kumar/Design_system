@@ -49,9 +49,6 @@ const App: React.FC = () => {
           <Typography variant="p" color="muted">
             Explore reusable, themeable components built with React, TypeScript & TailwindCSS.
           </Typography>
-          <Typography variant="caption" color="muted">
-            Fully accessible & responsive.
-          </Typography>
         </header>
 
         {/* Form Section */}
